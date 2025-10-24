@@ -117,10 +117,10 @@ const Hero = () => {
             link: "#"
         },
         {
-            title: "E-Commerce Platform",
-            description: "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-            tech: ["Wordpress", "React", "Tailwindcss", "Node.js", "Supabase", "Paypal"],
-            image: "https://res.cloudinary.com/dccjycgn1/image/upload/v1761281350/citycartph_loxrlc.jpg",
+            title: "Data Science & Machine Learning",
+            description: "Visual & Code-Based Development: Build ML models through intuitive visual workflows or write custom Python/R code—all in one platform. Accelerate AutoML model development. Build collaborative workflows and seamlessly move models from development to production pipelines. Track model performance, detect drift, and maintain governance with built-in monitoring and explainability tools.",
+            tech: ["Dataiku", "n8n", "Snowflake", "Python", "Supabase", "OpenAI"],
+            image: "https://res.cloudinary.com/dccjycgn1/image/upload/v1761331776/Screenshot_2025-10-24_220214_blalse.png",
             link: "#"
         },
 
@@ -133,31 +133,33 @@ const Hero = () => {
         },
         {
             title: "DevOps Engineer",
-            description: "Results-driven DevOps Engineer with 5+ years of experience in designing, implementing, and maintaining robust cloud infrastructure and CI/CD pipelines. Expert in container orchestration, infrastructure automation, and cloud-native technologies.",
+            description: "Results-driven DevOps Engineer with 3+ years of experience in designing, implementing, and maintaining robust cloud infrastructure and CI/CD pipelines. Expert in container orchestration, infrastructure automation, and cloud-native technologies.",
             tech: ["Kubernetes", "Docker", "Azure/Google Cloud Platform", "Terraform", "Github", "Infrastructure as Code","Linux/Bash"],
-            image: "https://res.cloudinary.com/dccjycgn1/image/upload/v1761306969/openart-image_RZmZUQmz_1761306484294_raw_cg2kqw.jpg",
+            image: "https://res.cloudinary.com/dccjycgn1/image/upload/v1761326921/Devops1-2048x1338_ya2d7t.jpg",
             link: "#"
         }
     ];
 
     const skills = [
-        { name: "Zapier", level: 95 },
+        { name: "Dataiku", level: 90 },
         { name: "n8n", level: 95 },
+        { name: "Zapier", level: 95 },
+        { name: "RESTful APIs", level: 95 },
         { name: "Make.com", level: 88 },
         { name: "Google Cloud", level: 85 },
         { name: "Tailwind CSS", level: 92 },
-        { name: "React", level: 80 },
-        { name: "Github", level: 75 },
-        { name: "Docker", level: 78 },
-        { name: "Kubernetes", level: 75 },
+        { name: "React", level: 90 },
+        { name: "Github", level: 85 },
+        { name: "Docker", level: 85 },
+        { name: "Kubernetes", level: 80 },
         { name: "Terraform", level: 80 },
     ];
 
     const services = [
         {
             icon: <Code className="w-12 h-12" />,
-            title: "AI Automation & Workflow Design",
-            description: "n8n, Zapier, Make.com workflow development. LLM integration (OpenAI, Gemini, LangChain). API-to-AI orchestration flows and webhook routing. AI-in-the-loop task automation systems. "
+            title: "Data Science, Machine Learning & Automation",
+            description: "Dataiku, n8n, Zapier, Make.com workflow development. LLM integration (OpenAI, Gemini, LangChain). API-to-AI orchestration flows and webhook routing. AI-in-the-loop task automation systems. "
         },
         {
             icon: <Palette className="w-12 h-12" />,
@@ -167,14 +169,10 @@ const Hero = () => {
         },
         {
             icon: <WrenchIcon className="w-12 h-12" />,
-            title: "Backend, API & Database Systems",
-            description: "Node.js, Python (FastAPI, Flask) for service APIs. REST API, GraphQL, and OpenAPI spec creation. SQL & NoSQL setup (PostgreSQL, MySQL, Firebase, MongoDB). Authentication (OAuth2.0, JWT, SSO, API Keys). Secure database design with encryption and role-based access."
+            title: "Backend, API, Database & Security Systems",
+            description: "GCP, AWS EC2/EKS, Azure Container Apps. IAM policies, TLS/SSL encryption, token-based security. REST API, GraphQL, and OpenAPI spec creation. SQL & NoSQL setup (PostgreSQL, MySQL, Firebase, MongoDB). Authentication (OAuth2.0, ServiceAuth, SSO, API Keys). "
         },
-        {
-            icon: <Lock className="w-12 h-12" />,
-            title: "Backend, API & Database Systems",
-            description: "GCP, AWS EC2/EKS, Azure Container Apps. IAM policies, TLS/SSL encryption, token-based security. Secrets management (AWS Secrets Manager, HashiCorp Vault). Secure CI/CD deployment, vulnerability scanning, and access control audits."
-        }
+
     ];
 
     return (
@@ -296,10 +294,10 @@ const Hero = () => {
                         </div>
                         <div>
                             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-                                Innovative AI Automation Developer specializing in building scalable, intelligent workflow systems that bridge human creativity with automated precision. With hands-on expertise in visual automation platforms like n8n, Zapier, and Make.com, I design, orchestrate, and deploy interconnected systems that transform complex business operations into seamless, autonomous ecosystems.
+                                Innovative AI Automation Developer specializing in building scalable, intelligent workflow systems that bridge human creativity with automated precision. With hands-on expertise in visual automation platforms like Dataiku, n8n, Zapier, and Make.com, I design, orchestrate, and deploy interconnected systems that transform complex business operations into seamless, autonomous ecosystems.
                             </p>
                             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-                                My mission is to empower teams with AI-first workflows that integrate Meta, Google, and cloud ecosystems. Blending language models, APIs, and real-time data pipelines into agile automation solutions integrating them within cloud-native, containerized environments using Docker and Kubernetes for reliability and scalability .
+                                My mission is to empower teams by pioneering AI-first workflows that address painstaking and repetitive tasks with innovative solutions. I am dedicated to driving enterprise digital transformations that convert routine operations into agile, automated processes seamlessly integrated within cloud-native, containerized environments. Leveraging Infrastructure as Code (IaC) principles, I ensure these solutions deliver unparalleled reliability, scalability, and efficiency.
                             </p>
                             <div className="flex gap-4">
                                 <a href="#" className="text-purple-500 hover:text-purple-400 transition-colors">
