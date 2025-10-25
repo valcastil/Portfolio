@@ -128,7 +128,7 @@ const Hero = () => {
         },
         {
             title: "DevOps Engineer",
-            description: "Results-driven DevOps Engineer with 3+ years of experience in designing, implementing, and maintaining robust cloud infrastructure and CI/CD pipelines. Expert in container orchestration, infrastructure automation, and cloud-native technologies.",
+            description: "Results-driven DevOps Engineer experience in designing, implementing, and maintaining robust cloud infrastructure and CI/CD pipelines. Expert in container orchestration, infrastructure automation, and cloud-native technologies.",
             tech: ["Kubernetes", "Docker", "Azure/Google Cloud Platform", "Terraform", "Github", "Infrastructure as Code","Linux/Bash"],
             image: "https://res.cloudinary.com/dccjycgn1/image/upload/v1761326921/Devops1-2048x1338_ya2d7t.jpg",
             link: "#"
