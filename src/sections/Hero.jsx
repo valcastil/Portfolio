@@ -112,7 +112,7 @@ const Hero = () => {
             link: "#"
         },
         {
-            title: "Data Science & Machine Learning",
+            title: "Dataiku Core Designing & Machine Learning",
             description: "Visual & Code-Based Development: Build ML models through intuitive visual workflows or write custom Python/R code—all in one platform. Accelerate AutoML model development. Build collaborative workflows and seamlessly move models from development to production pipelines. Track model performance, detect drift, and maintain governance with built-in monitoring and explainability tools.",
             tech: ["Dataiku", "n8n", "Snowflake", "Python", "Supabase", "OpenAI"],
             image: "https://res.cloudinary.com/dccjycgn1/image/upload/v1761331776/Screenshot_2025-10-24_220214_blalse.png",
@@ -295,13 +295,28 @@ const Hero = () => {
                                 My mission is to empower teams by pioneering AI-first workflows that address painstaking and repetitive tasks with innovative solutions. I am dedicated to driving enterprise digital transformations that convert routine operations into agile, automated processes seamlessly integrated within cloud-native, containerized environments. Leveraging Infrastructure as Code (IaC) principles, I ensure these solutions deliver unparalleled reliability, scalability, and efficiency.
                             </p>
                             <div className="flex gap-4">
-                                <a href="#" className="text-purple-500 hover:text-purple-400 transition-colors">
+                                <a
+                                    href="https://github.com/valcastil"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-purple-500 hover:text-purple-400 transition-colors"
+                                    aria-label="GitHub"
+                                >
                                     <Github className="w-6 h-6" />
                                 </a>
-                                <a href="#" className="text-purple-500 hover:text-purple-400 transition-colors">
+                                <a
+                                    href="https://www.linkedin.com/in/val-amor-castil-9952b332/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-purple-500 hover:text-purple-400 transition-colors"
+                                    aria-label="LinkedIn"
+                                >
                                     <Linkedin className="w-6 h-6" />
                                 </a>
-                                <a href="#" className="text-purple-500 hover:text-purple-400 transition-colors">
+                                <a  href="mailto:castilv@gmail.com"
+                                    className="text-purple-500 hover:text-purple-400 transition-colors"
+                                    aria-label="Email"
+                                >
                                     <Mail className="w-6 h-6" />
                                 </a>
                             </div>
@@ -407,13 +422,28 @@ const Hero = () => {
                         © 2025 Val Castil. All rights reserved.
                     </p>
                     <div className="flex justify-center gap-6 mt-4">
-                        <a href="#" className="text-gray-400 hover:text-purple-500 transition-colors">
+                        <a
+                            href="https://github.com/valcastil"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-400 hover:text-purple-500 transition-colors"
+                            aria-label="GitHub"
+                        >
                             <Github className="w-5 h-5" />
                         </a>
-                        <a href="#" className="text-gray-400 hover:text-purple-500 transition-colors">
+                        <a
+                            href="https://www.linkedin.com/in/val-amor-castil-9952b332/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-400 hover:text-purple-500 transition-colors"
+                            aria-label="LinkedIn"
+                        >
                             <Linkedin className="w-5 h-5" />
                         </a>
-                        <a href="#" className="text-gray-400 hover:text-purple-500 transition-colors">
+                        <a href="mailto:castilv@gmail.com"
+                           className="text-gray-400 hover:text-purple-500 transition-colors"
+                           aria-label="Email"
+                        >
                             <Mail className="w-5 h-5" />
                         </a>
                     </div>
