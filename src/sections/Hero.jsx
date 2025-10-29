@@ -140,7 +140,7 @@ const Hero = () => {
         { name: "n8n", level: 95 },
         { name: "Zapier", level: 95 },
         { name: "RESTful APIs", level: 95 },
-        { name: "Make.com", level: 88 },
+        { name: "LangChain", level: 88 },
         { name: "Google Cloud", level: 85 },
         { name: "Tailwind CSS", level: 92 },
         { name: "React", level: 90 },
@@ -289,7 +289,7 @@ const Hero = () => {
                         </div>
                         <div>
                             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-                                Innovative AI Automation Developer specializing in building scalable, intelligent workflow systems that bridge human creativity with automated precision. With hands-on expertise in visual automation platforms like Dataiku, n8n, Zapier, and Make.com, I design, orchestrate, and deploy interconnected systems that transform complex business operations into seamless, autonomous ecosystems.
+                                Innovative AI Automation Developer specializing in building scalable, intelligent workflow systems that bridge human creativity with automated precision. With hands-on expertise in visual automation platforms like Dataiku, n8n, Zapier, and LangChain, I design, orchestrate, and deploy interconnected systems that transform complex business operations into seamless, autonomous ecosystems.
                             </p>
                             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
                                 My mission is to empower teams by pioneering AI-first workflows that address painstaking and repetitive tasks with innovative solutions. I am dedicated to driving enterprise digital transformations that convert routine operations into agile, automated processes seamlessly integrated within cloud-native, containerized environments. Leveraging Infrastructure as Code (IaC) principles, I ensure these solutions deliver unparalleled reliability, scalability, and efficiency.
